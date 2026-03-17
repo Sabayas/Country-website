@@ -1,0 +1,15 @@
+[{
+   
+     "id": 1,
+      "name": "ZenithDoc",
+      "description": "We build modern web applications and ecommerce solutions.",
+      "logo": "/images/logo.png"
+    },
+     { "id": 2,
+      "email": "support@zenithdoc.com",
+      "phone": "+91 9876543210",
+      "address": "Jharkhand, India"
+    }
+    
+  
+]  

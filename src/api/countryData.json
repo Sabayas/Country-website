@@ -1,0 +1,136 @@
+[
+  
+      { 
+        "id": 1,
+        "name": "Japan",
+        "capital": "Tokyo",
+        "population": 125800000,
+        "currency": {
+          "name": "Japanese Yen",
+          "code": "JPY",
+          "symbol": "¥"
+        },
+        "continent": "Asia",
+        "official_language": "Japanese",
+        "interesting_fact": "Japan has the world's oldest continuous monarchy."
+      },
+      { "id": 2,
+        "name": "Canada",
+        "capital": "Ottawa",
+        "population": 40100000,
+        "currency": {
+          "name": "Canadian Dollar",
+          "code": "CAD",
+          "symbol": "$"
+        },
+        "continent": "North America",
+        "official_language": ["English", "French"],
+        "interesting_fact": "About 90% of Canada’s population lives near the US border."
+      },
+      { "id": 3,
+        "name": "Germany",
+        "capital": "Berlin",
+        "population": 83200000,
+        "currency": {
+          "name": "Euro",
+          "code": "EUR",
+          "symbol": "€"
+        },
+        "continent": "Europe",
+        "official_language": "German",
+        "interesting_fact": "Germany has over 20,000 castles."
+      },
+      { "id": 4,
+        "name": "India",
+        "capital": "New Delhi",
+        "population": 1428000000,
+        "currency": {
+          "name": "Indian Rupee",
+          "code": "INR",
+          "symbol": "₹"
+        },
+        "continent": "Asia",
+        "official_language": ["Hindi", "English"],
+        "interesting_fact": "India has the largest postal network in the world."
+      },
+      { "id": 5,
+        "name": "Brazil",
+        "capital": "Brasília",
+        "population": 203000000,
+        "currency": {
+          "name": "Brazilian Real",
+          "code": "BRL",
+          "symbol": "R$"
+        },
+        "continent": "South America",
+        "official_language": "Portuguese",
+        "interesting_fact": "Brazil is home to 60% of the Amazon rainforest."
+      },
+      { "id": 6,
+        "name": "Australia",
+        "capital": "Canberra",
+        "population": 26700000,
+        "currency": {
+          "name": "Australian Dollar",
+          "code": "AUD",
+          "symbol": "$"
+        },
+        "continent": "Oceania",
+        "official_language": "English",
+        "interesting_fact": "Australia has more kangaroos than people."
+      },
+      { "id": 7,
+        "name": "South Africa",
+        "capital": ["Pretoria", "Cape Town", "Bloemfontein"],
+        "population": 60400000,
+        "currency": {
+          "name": "South African Rand",
+          "code": "ZAR",
+          "symbol": "R"
+        },
+        "continent": "Africa",
+        "official_language": "11 official languages",
+        "interesting_fact": "South Africa is the only country with three capitals."
+      },
+      { "id": 8,
+        "name": "United Arab Emirates",
+        "capital": "Abu Dhabi",
+        "population": 10000000,
+        "currency": {
+          "name": "UAE Dirham",
+          "code": "AED",
+          "symbol": "د.إ"
+        },
+        "continent": "Asia",
+        "official_language": "Arabic",
+        "interesting_fact": "The Burj Khalifa is the tallest building in the world."
+      },
+      { "id": 9,
+        "name": "Norway",
+        "capital": "Oslo",
+        "population": 5500000,
+        "currency": {
+          "name": "Norwegian Krone",
+          "code": "NOK",
+          "symbol": "kr"
+        },
+        "continent": "Europe",
+        "official_language": "Norwegian",
+        "interesting_fact": "Norway has one of the highest standards of living in the world."
+      },
+      { "id": 10,
+        "name": "Mexico",
+        "capital": "Mexico City",
+        "population": 129000000,
+        "currency": {
+          "name": "Mexican Peso",
+          "code": "MXN",
+          "symbol": "$"
+        },
+        "continent": "North America",
+        "official_language": "Spanish",
+        "interesting_fact": "Mexico introduced chocolate to the world."
+      }
+    ]
+  
+
