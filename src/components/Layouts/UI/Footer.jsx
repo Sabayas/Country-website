@@ -1,30 +1,48 @@
 import React from 'react'
 import footerData from '../../../api/footerData.json'
-import { data } from 'react-router-dom';
+import { data, NavLink } from 'react-router-dom';
 import { CiPhone } from "react-icons/ci";
 import { MdAttachEmail } from "react-icons/md";
 
-const Footer = () => {
+ const Footer = () => {
+
+  
+  const footerIcon = {
+    FaPhoneAlt: <CiPhone/>,
+    MdAttachEmail: <MdAttachEmail/>
+  };
+
   return (
-    <footer className="footer  flex justify-align ">
-      <div className=" flex padding-2rem ">
-        {footerData.map(data => (
-          <div key={data.id}>
-            <div className='flex'>
-            <ul className='flex padding-2rem'>
-              <li ><CiPhone />{data.phone}</li>
-              <li><MdAttachEmail />{data.email}</li>
-              <li>{data.address}</li>
-            </ul>
+   <footer className='footer-section'>
+    <div className="container grid grid-three-cols">
+      {footerData.map((item, index)=>{
+        const { id, icon , title ,des , phone, email ,address} = item;
+        return(
+          <div key={item.id} className="footer-item">
+            <h3 className="footer-title">{item.title}</h3>
+            <p className="footer-desc">{item.desc}</p>
+            <div className="footer-contact">
+            
+              <p>{item.phone}</p>
+              <p> {item.email}</p>
             </div>
           </div>
+        )
+      })}
+
+
+     
+    </div>
+          <div className="copyright-area">
+        <div className="container flex center">
           
-        ))}
-        
-      </div>
-
-       </footer>
+            <p>&copy; 2023 ZenithDoc. All rights reserved.</p>
+            
+          </div>
+        </div>
+     
+   </footer>
   )
-}
+};
 
-export default Footer;
+export  default Footer;

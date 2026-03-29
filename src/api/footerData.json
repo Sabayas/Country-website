@@ -1,6 +1,7 @@
 [{
    
      "id": 1,
+     "icon": "FaPhoneAlt",
       "name": "ZenithDoc",
       "description": "We build modern web applications and ecommerce solutions.",
       "logo": "/images/logo.png"
